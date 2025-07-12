@@ -1,6 +1,4 @@
-# dub
-
-Terraform Provider for the *dub* API.
+# Dub Terraform Provider
 
 <div align="left">
     <a href="https://www.speakeasy.com/?utm_source=dub&utm_campaign=terraform"><img src="https://custom-icon-badges.demolab.com/badge/-Built%20By%20Speakeasy-212015?style=for-the-badge&logoColor=FBE331&logo=speakeasy&labelColor=545454" /></a>
@@ -9,26 +7,18 @@ Terraform Provider for the *dub* API.
     </a>
 </div>
 
-
-## 🏗 **Welcome to your new Terraform Provider!** 🏗
-
-It has been generated successfully based on your OpenAPI spec. However, it is not yet ready for production use. Here are some next steps:
-- [ ] 🛠 Add resources and datasources to your SDK by [annotating your OAS](https://www.speakeasy.com/docs/customize-terraform/terraform-extensions#map-api-entities-to-terraform-resources)
-- [ ] ♻️ Refine your terraform provider quickly by iterating locally with the [Speakeasy CLI](https://github.com/speakeasy-api/speakeasy)
-- [ ] 🎁 Publish your terraform provider to hashicorp registry by [configuring automatic publishing](https://www.speakeasy.com/docs/terraform-publishing)
-- [ ] ✨ When ready to productionize, delete this section from the README
-
 <!-- Start Summary [summary] -->
 ## Summary
 
-Dub API: Dub is link management infrastructure for companies to create marketing campaigns, link sharing features, and referral programs.
+Dub API: Welcome to the Dub Terraform provider.
+
+The provider requires a Dub API key, which can be set using either a `token` value in the provider block or a `DUB_API_KEY` environment variable.
 <!-- End Summary [summary] -->
 
 <!-- Start Table of Contents [toc] -->
 ## Table of Contents
 <!-- $toc-max-depth=2 -->
-* [dub](#dub)
-  * [🏗 **Welcome to your new Terraform Provider!** 🏗](#welcome-to-your-new-terraform-provider)
+* [Dub Terraform Provider](#dub-terraform-provider)
   * [Installation](#installation)
   * [Available Resources and Data Sources](#available-resources-and-data-sources)
   * [Testing the provider locally](#testing-the-provider-locally)
@@ -47,7 +37,7 @@ terraform {
   required_providers {
     dub = {
       source  = "speakeasy/dub"
-      version = "0.0.1"
+      version = "0.0.3"
     }
   }
 }
