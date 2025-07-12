@@ -1,19 +1,19 @@
-speakeasyVersion: 1.580.2
+speakeasyVersion: 1.581.0
 sources:
     Dub API:
         sourceNamespace: dub-api
-        sourceRevisionDigest: sha256:3ff2b97eaf0e8af53aefdd45fbb58c7aa8aa3643a954bbf9f7a328f95021a7ad
-        sourceBlobDigest: sha256:c6dd855adb8c0f7cbc0f1394cbfb4c89feeb3d8edb736cb250fd525034000b5d
+        sourceRevisionDigest: sha256:0697cc53c86e4599acf7265f0519df7b41c80118ecd1ef0ba377c02a108aebbc
+        sourceBlobDigest: sha256:b55545e6d2fe5afba46aba1dd1ea6e661766439dc192fff35b515338ea68b8c9
         tags:
             - latest
-            - speakeasy-sdk-regen-1752219291
+            - speakeasy-sdk-regen-1752321393
             - 0.0.1
 targets:
     dub:
         source: Dub API
         sourceNamespace: dub-api
-        sourceRevisionDigest: sha256:3ff2b97eaf0e8af53aefdd45fbb58c7aa8aa3643a954bbf9f7a328f95021a7ad
-        sourceBlobDigest: sha256:c6dd855adb8c0f7cbc0f1394cbfb4c89feeb3d8edb736cb250fd525034000b5d
+        sourceRevisionDigest: sha256:0697cc53c86e4599acf7265f0519df7b41c80118ecd1ef0ba377c02a108aebbc
+        sourceBlobDigest: sha256:b55545e6d2fe5afba46aba1dd1ea6e661766439dc192fff35b515338ea68b8c9
 workflow:
     workflowVersion: 1.0.0
     speakeasyVersion: latest
