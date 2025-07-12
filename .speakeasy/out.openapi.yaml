@@ -1,7 +1,10 @@
 openapi: 3.0.3
 info:
   title: Dub API
-  description: Dub is link management infrastructure for companies to create marketing campaigns, link sharing features, and referral programs.
+  description: |
+    Welcome to the Dub Terraform provider.
+
+    A Dub API key is required for authentication, which can be set using a `token` value in the provider block or a `DUB_API_KEY` environment variable.
   version: 0.0.1
   contact:
     name: Dub Support

@@ -48,7 +48,9 @@ func Float64(f float64) *float64 { return &f }
 // Pointer provides a helper function to return a pointer to a type
 func Pointer[T any](v T) *T { return &v }
 
-// Dub API: Dub is link management infrastructure for companies to create marketing campaigns, link sharing features, and referral programs.
+// Dub API: Welcome to the Dub Terraform provider.
+//
+// A Dub API key is required for authentication, which can be set using a `token` value in the provider block or a `DUB_API_KEY` environment variable.
 type Dub struct {
 	SDKVersion string
 	Links      *Links
@@ -128,9 +130,9 @@ func WithTimeout(timeout time.Duration) SDKOption {
 // New creates a new instance of the SDK with the provided options
 func New(opts ...SDKOption) *Dub {
 	sdk := &Dub{
-		SDKVersion: "0.0.1",
+		SDKVersion: "0.0.2",
 		sdkConfiguration: config.SDKConfiguration{
-			UserAgent:  "speakeasy-sdk/terraform 0.0.1 2.656.5 0.0.1 github.com/speakeasy/terraform-provider-dub/internal/sdk",
+			UserAgent:  "speakeasy-sdk/terraform 0.0.2 2.656.5 0.0.1 github.com/speakeasy/terraform-provider-dub/internal/sdk",
 			ServerList: ServerList,
 		},
 		hooks: hooks.New(),

@@ -1,13 +1,13 @@
 lockVersion: 2.0.0
 id: 3354323f-4a27-41c9-8f3f-94bbfb4d90b0
 management:
-  docChecksum: 6e77a926b7ebd2de7107e19a347d1515
+  docChecksum: 6acfcd4e09ce25ee38b50cf13d7b10c6
   docVersion: 0.0.1
-  speakeasyVersion: 1.580.2
+  speakeasyVersion: 1.581.0
   generationVersion: 2.656.5
-  releaseVersion: 0.0.1
-  configChecksum: 771b2de16900d5418d903f7501cc98ea
-  repoURL: https://github.com/ryan-blunden/terraform-provider-dub.git
+  releaseVersion: 0.0.2
+  configChecksum: 85dadf559e4a5793b9d3de11f3dcd9cc
+  repoURL: https://github.com/ryan-blunden/terraform-provider-dub-v1.git
 features:
   terraform:
     additionalDependencies: 0.1.0

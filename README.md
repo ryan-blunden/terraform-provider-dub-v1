@@ -12,7 +12,7 @@
 
 Dub API: Welcome to the Dub Terraform provider.
 
-The provider requires a Dub API key, which can be set using either a `token` value in the provider block or a `DUB_API_KEY` environment variable.
+A Dub API key is required for authentication, which can be set using a `token` value in the provider block or a `DUB_API_KEY` environment variable.
 <!-- End Summary [summary] -->
 
 <!-- Start Table of Contents [toc] -->
@@ -37,7 +37,7 @@ terraform {
   required_providers {
     dub = {
       source  = "speakeasy/dub"
-      version = "0.0.3"
+      version = "0.0.2"
     }
   }
 }

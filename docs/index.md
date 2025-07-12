@@ -3,12 +3,15 @@
 page_title: "dub Provider"
 subcategory: ""
 description: |-
-  Dub API: Dub is link management infrastructure for companies to create marketing campaigns, link sharing features, and referral programs.
+  Dub API: Welcome to the Dub Terraform provider.
+  A Dub API key is required for authentication, which can be set using a token value in the provider block or a DUB_API_KEY environment variable.
 ---
 
 # dub Provider
 
-Dub API: Dub is link management infrastructure for companies to create marketing campaigns, link sharing features, and referral programs.
+Dub API: Welcome to the Dub Terraform provider.
+
+A Dub API key is required for authentication, which can be set using a `token` value in the provider block or a `DUB_API_KEY` environment variable.
 
 ## Example Usage
 
@@ -17,7 +20,7 @@ terraform {
   required_providers {
     dub = {
       source  = "speakeasy/dub"
-      version = "0.0.1"
+      version = "0.0.2"
     }
   }
 }

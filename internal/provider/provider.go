@@ -49,7 +49,9 @@ func (p *DubProvider) Schema(ctx context.Context, req provider.SchemaRequest, re
 				Sensitive: true,
 			},
 		},
-		MarkdownDescription: `Dub API: Dub is link management infrastructure for companies to create marketing campaigns, link sharing features, and referral programs.`,
+		MarkdownDescription: `Dub API: Welcome to the Dub Terraform provider.` + "\n" +
+			`` + "\n" +
+			`A Dub API key is required for authentication, which can be set using a ` + "`" + `token` + "`" + ` value in the provider block or a ` + "`" + `DUB_API_KEY` + "`" + ` environment variable.`,
 	}
 }
 
