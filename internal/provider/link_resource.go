@@ -18,11 +18,11 @@ import (
 	"github.com/hashicorp/terraform-plugin-framework/schema/validator"
 	"github.com/hashicorp/terraform-plugin-framework/types"
 	"github.com/hashicorp/terraform-plugin-framework/types/basetypes"
-	tfTypes "github.com/speakeasy/terraform-provider-dub/internal/provider/types"
-	"github.com/speakeasy/terraform-provider-dub/internal/sdk"
-	speakeasy_float64validators "github.com/speakeasy/terraform-provider-dub/internal/validators/float64validators"
-	speakeasy_objectvalidators "github.com/speakeasy/terraform-provider-dub/internal/validators/objectvalidators"
-	speakeasy_stringvalidators "github.com/speakeasy/terraform-provider-dub/internal/validators/stringvalidators"
+	tfTypes "github.com/ryan-blunden/terraform-provider-dub/internal/provider/types"
+	"github.com/ryan-blunden/terraform-provider-dub/internal/sdk"
+	speakeasy_float64validators "github.com/ryan-blunden/terraform-provider-dub/internal/validators/float64validators"
+	speakeasy_objectvalidators "github.com/ryan-blunden/terraform-provider-dub/internal/validators/objectvalidators"
+	speakeasy_stringvalidators "github.com/ryan-blunden/terraform-provider-dub/internal/validators/stringvalidators"
 	"regexp"
 )
 

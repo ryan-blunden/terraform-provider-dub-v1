@@ -9,7 +9,7 @@ import (
 	"github.com/hashicorp/terraform-plugin-framework/datasource/schema"
 	"github.com/hashicorp/terraform-plugin-framework/types"
 	"github.com/hashicorp/terraform-plugin-framework/types/basetypes"
-	"github.com/speakeasy/terraform-provider-dub/internal/sdk"
+	"github.com/ryan-blunden/terraform-provider-dub/internal/sdk"
 )
 
 // Ensure provider defined types fully satisfy framework interfaces.

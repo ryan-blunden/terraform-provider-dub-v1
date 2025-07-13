@@ -7,11 +7,11 @@ package sdk
 import (
 	"context"
 	"fmt"
-	"github.com/speakeasy/terraform-provider-dub/internal/sdk/internal/config"
-	"github.com/speakeasy/terraform-provider-dub/internal/sdk/internal/hooks"
-	"github.com/speakeasy/terraform-provider-dub/internal/sdk/internal/utils"
-	"github.com/speakeasy/terraform-provider-dub/internal/sdk/models/shared"
-	"github.com/speakeasy/terraform-provider-dub/internal/sdk/retry"
+	"github.com/ryan-blunden/terraform-provider-dub/internal/sdk/internal/config"
+	"github.com/ryan-blunden/terraform-provider-dub/internal/sdk/internal/hooks"
+	"github.com/ryan-blunden/terraform-provider-dub/internal/sdk/internal/utils"
+	"github.com/ryan-blunden/terraform-provider-dub/internal/sdk/models/shared"
+	"github.com/ryan-blunden/terraform-provider-dub/internal/sdk/retry"
 	"net/http"
 	"time"
 )
@@ -130,9 +130,9 @@ func WithTimeout(timeout time.Duration) SDKOption {
 // New creates a new instance of the SDK with the provided options
 func New(opts ...SDKOption) *Dub {
 	sdk := &Dub{
-		SDKVersion: "0.0.2",
+		SDKVersion: "0.0.3",
 		sdkConfiguration: config.SDKConfiguration{
-			UserAgent:  "speakeasy-sdk/terraform 0.0.2 2.656.5 0.0.1 github.com/speakeasy/terraform-provider-dub/internal/sdk",
+			UserAgent:  "speakeasy-sdk/terraform 0.0.3 2.656.5 0.0.1 github.com/ryan-blunden/terraform-provider-dub/internal/sdk",
 			ServerList: ServerList,
 		},
 		hooks: hooks.New(),

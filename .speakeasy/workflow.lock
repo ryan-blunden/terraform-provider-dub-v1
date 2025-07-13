@@ -6,7 +6,7 @@ sources:
         sourceBlobDigest: sha256:b55545e6d2fe5afba46aba1dd1ea6e661766439dc192fff35b515338ea68b8c9
         tags:
             - latest
-            - speakeasy-sdk-regen-1752321393
+            - speakeasy-sdk-regen-1752388265
             - 0.0.1
 targets:
     dub:
@@ -30,3 +30,7 @@ workflow:
         dub:
             target: terraform
             source: Dub API
+            publish:
+                terraform:
+                    gpgPrivateKey: $terraform_gpg_private_key
+                    gpgPassPhrase: $terraform_gpg_passphrase
