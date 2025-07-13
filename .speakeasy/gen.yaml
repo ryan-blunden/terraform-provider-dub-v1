@@ -22,7 +22,7 @@ generation:
     generateNewTests: true
     skipResponseBodyAssertions: false
 terraform:
-  version: 0.0.2
+  version: 0.0.3
   additionalDataSources: []
   additionalDependencies: {}
   additionalEphemeralResources: []
@@ -31,7 +31,7 @@ terraform:
     tlsSkipVerify: ""
   additionalResources: []
   allowUnknownFieldsInWeakUnions: false
-  author: speakeasy
+  author: ryan-blunden
   baseErrorName: DubError
   defaultErrorName: APIError
   enableTypeDeduplication: false
