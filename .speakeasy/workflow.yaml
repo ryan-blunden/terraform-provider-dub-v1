@@ -13,3 +13,7 @@ targets:
     dub:
         target: terraform
         source: Dub API
+        publish:
+            terraform:
+                gpgPrivateKey: $terraform_gpg_private_key
+                gpgPassPhrase: $terraform_gpg_passphrase
