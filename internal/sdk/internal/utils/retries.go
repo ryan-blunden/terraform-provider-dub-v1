@@ -6,7 +6,7 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"github.com/speakeasy/terraform-provider-dub/internal/sdk/retry"
+	"github.com/ryan-blunden/terraform-provider-dub/internal/sdk/retry"
 	"math"
 	"math/rand"
 	"net/http"

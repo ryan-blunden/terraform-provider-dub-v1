@@ -14,7 +14,7 @@ import (
 
 	"github.com/ericlagergren/decimal"
 
-	"github.com/speakeasy/terraform-provider-dub/internal/sdk/types"
+	"github.com/ryan-blunden/terraform-provider-dub/internal/sdk/types"
 )
 
 func PopulateQueryParams(_ context.Context, req *http.Request, queryParams interface{}, globals interface{}) error {

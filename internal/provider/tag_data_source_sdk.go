@@ -6,8 +6,8 @@ import (
 	"context"
 	"github.com/hashicorp/terraform-plugin-framework/diag"
 	"github.com/hashicorp/terraform-plugin-framework/types"
-	"github.com/speakeasy/terraform-provider-dub/internal/sdk/models/operations"
-	"github.com/speakeasy/terraform-provider-dub/internal/sdk/models/shared"
+	"github.com/ryan-blunden/terraform-provider-dub/internal/sdk/models/operations"
+	"github.com/ryan-blunden/terraform-provider-dub/internal/sdk/models/shared"
 )
 
 func (r *TagDataSourceModel) ToOperationsGetTagsRequest(ctx context.Context) (*operations.GetTagsRequest, diag.Diagnostics) {

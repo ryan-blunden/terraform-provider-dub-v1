@@ -5,7 +5,7 @@ package hooks
 import (
 	"context"
 	"errors"
-	"github.com/speakeasy/terraform-provider-dub/internal/sdk/internal/config"
+	"github.com/ryan-blunden/terraform-provider-dub/internal/sdk/internal/config"
 	"net/http"
 )
 

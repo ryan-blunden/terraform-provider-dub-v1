@@ -6,8 +6,8 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/speakeasy/terraform-provider-dub/internal/sdk/internal/utils"
-	"github.com/speakeasy/terraform-provider-dub/internal/sdk/models/shared"
+	"github.com/ryan-blunden/terraform-provider-dub/internal/sdk/internal/utils"
+	"github.com/ryan-blunden/terraform-provider-dub/internal/sdk/models/shared"
 	"net/http"
 )
 

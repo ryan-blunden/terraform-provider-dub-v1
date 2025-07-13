@@ -36,8 +36,8 @@ To install this provider, copy and paste this code into your Terraform configura
 terraform {
   required_providers {
     dub = {
-      source  = "speakeasy/dub"
-      version = "0.0.2"
+      source  = "ryan-blunden/dub"
+      version = "0.0.3"
     }
   }
 }
@@ -92,7 +92,7 @@ Terraform searches for the `.terraformrc` file in your home directory and applie
 provider_installation {
 
   dev_overrides {
-      "registry.terraform.io/speakeasy/dub" = "<PATH>"
+      "registry.terraform.io/ryan-blunden/dub" = "<PATH>"
   }
 
   # For all other providers, install them directly from their origin provider

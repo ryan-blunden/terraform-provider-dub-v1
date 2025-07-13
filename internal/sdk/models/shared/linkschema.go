@@ -3,7 +3,7 @@
 package shared
 
 import (
-	"github.com/speakeasy/terraform-provider-dub/internal/sdk/internal/utils"
+	"github.com/ryan-blunden/terraform-provider-dub/internal/sdk/internal/utils"
 )
 
 // Geo targeting information for the short link in JSON format `{[COUNTRY]: https://example.com }`. Learn more: https://d.to/geo
